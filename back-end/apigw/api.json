@@ -1,0 +1,8 @@
+{
+  "Name": "apigw-websocket-pattern",
+  "ProtocolType": "WEBSOCKET",
+  "RouteSelectionExpression": "$request.body.type",
+  "Tags": {
+    "Project": "apigw-websocket-pattern"
+  }
+}

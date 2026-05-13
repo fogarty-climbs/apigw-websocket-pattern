@@ -1,0 +1,5 @@
+{
+  "RouteKey": "$disconnect",
+  "AuthorizationType": "NONE",
+  "OperationName": "DisconnectRoute"
+}

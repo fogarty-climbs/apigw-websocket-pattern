@@ -1,0 +1,26 @@
+{
+  "TableName": "apigw-websocket-pattern-connections-table",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "connectionId",
+      "AttributeType": "S"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "connectionId",
+      "KeyType": "HASH"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST",
+  "TimeToLiveSpecification": {
+    "AttributeName": "ttl",
+    "Enabled": true
+  },
+  "Tags": [
+    {
+      "Key": "Project",
+      "Value": "apigw-websocket-pattern"
+    }
+  ]
+}

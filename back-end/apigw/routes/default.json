@@ -1,0 +1,5 @@
+{
+  "RouteKey": "$default",
+  "AuthorizationType": "NONE",
+  "OperationName": "DefaultRoute"
+}
